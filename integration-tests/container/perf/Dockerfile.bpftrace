@@ -1,4 +1,4 @@
-FROM quay.io/iovisor/bpftrace:latest
+FROM quay.io/multi-arch/bpftrace:latest
 
 COPY /scripts /scripts
 COPY /tools /tools
